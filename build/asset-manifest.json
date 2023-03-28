@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Pokedex/static/css/main.2d5e1d2f.css",
+    "main.js": "/Pokedex/static/js/main.6c48432b.js",
+    "static/media/Pokemon Hollow.ttf": "/Pokedex/static/media/Pokemon Hollow.47f77ce9939c5330492b.ttf",
+    "index.html": "/Pokedex/index.html",
+    "main.2d5e1d2f.css.map": "/Pokedex/static/css/main.2d5e1d2f.css.map",
+    "main.6c48432b.js.map": "/Pokedex/static/js/main.6c48432b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d5e1d2f.css",
+    "static/js/main.6c48432b.js"
+  ]
+}

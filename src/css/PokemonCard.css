@@ -1,0 +1,216 @@
+.Pokemon-card {
+    background-color: #383838;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    height: 250px;
+}
+
+.pokemon-list-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Pokemon-card .Pokemon-header {
+    background-color: darkslateblue;
+    color: #fff;
+    padding: 10px;
+}
+
+.Pokemon-card .Pokemon-header h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.Pokemon-card .Pokemon-type {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.Pokemon-card .Pokemon-type div {
+    background-color: #bcbcbc;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 5px;
+    padding: 5px 10px;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-grass {
+    background-color: #78c850;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-poison {
+    background-color: #a040a0;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-fire {
+    background-color: #f08030;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-water {
+    background-color: #6890f0;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-bug {
+    background-color: #a8b820;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-normal {
+    background-color: #a8a878;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-electric {
+    background-color: #f8d030;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-ground {
+    background-color: #e0c068;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-fighting {
+    background-color: #c03028;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-psychic {
+    background-color: #f85888;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-rock {
+    background-color: #b8a038;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-ghost {
+    background-color: #705898;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-ice {
+    background-color: #98d8d8;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-dragon {
+    background-color: #7038f8;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-steel {
+    background-color: #b8b8d0;
+}
+
+.Pokemon-card .Pokemon-type div.Pokemon-type-dark {
+    background-color: #705848;
+}
+
+.Pokemon-card .Pokemon-image {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.Pokemon-card.zoom {
+    z-index: 1;
+    transform: scale(1.2);
+}
+
+.Pokemon-card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.Pokemon-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 300px;
+    height: 200px;
+    background-color: #383838;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.Pokemon-popup h3 {
+    margin-top: 0;
+}
+
+.Pokemon-popup button {
+    margin-top: 20px;
+    align-self: flex-end;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.Pokemon-status-bar {
+    height: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #ddd;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Pokemon-status-bar-fill {
+    height: 100%;
+    background-color: #4CAF50;
+}
+
+.Pokemon-status-bar-fill-hp {
+    background-color: #ff0000;
+}
+
+.Pokemon-status-bar-fill-attack {
+    background-color: #ff9900;
+}
+
+.Pokemon-status-bar-fill-defense {
+    background-color: #34da00;
+}
+
+.Pokemon-status-bar-fill-special-attack {
+    background-color: #ffd800;
+}
+
+.Pokemon-status-bar-fill-special-defense {
+    background-color: #a100ff;
+}
+
+.Pokemon-status-bar-fill-speed {
+    background-color: #00ef94;
+}
+
+.Pokemon-popup button:hover {
+    background-color: #388e3c;
+}
+
+
+@media (max-width: 768px) {
+    .Pokemon-card {
+        width: 100%;
+    }
+}
+
+
+
+
